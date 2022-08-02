@@ -1,0 +1,144 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', 'Righteous', cursive;
+    background: #E5E5E5;
+}
+.cabecalho{
+    position:fixed;
+    top:0;
+    left:0;
+    width: 100%;;
+    height: 92px;
+    background-color: #CF2B2B;
+    padding: 8px 0 18px 21px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    z-index: 1;
+}
+.conteudo{
+    margin-top:123px;
+    padding-left:19px;
+
+}
+.conteudo section{
+    margin-top: 27px;
+}
+.conteudo section h2{
+    font-size:26px;
+    font-family: 'Righteous';
+    font-weight: 400;
+    color: #333333;
+    padding-bottom:17px;
+}
+.font-righ{
+    font-family: 'Righteous';
+    font-weight: 400;
+}
+.font-roboto{
+    font-family: 'Roboto';
+    font-weight: 400;
+}
+.cabecalho__titulo{
+    font-size: 44px;
+    color: #FFFFFF;
+    line-height: 54px;
+}
+.cabecalho__subtitulo{
+    color:#FFFFFF;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size:18px;
+    line-height:21px;
+}
+.produto__opcoes{
+    width:100%;
+    display: flex;
+    overflow-x: scroll;
+}
+.produto__opcao{
+
+    width: 172px;
+    padding: 18px 14px 13px 14px;
+    margin-right:16px;
+    background: #ffffff;
+    border-radius: 9px;
+    cursor:pointer;
+
+}
+.selecionado{
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25), inset 0px 0px 0px 5px #32B72F;
+}
+.produto__opcao img{
+    width: 144px;
+    height: 87px;
+    
+}
+.produto__nome{
+    font-weight:700;
+    font-size:16px;
+    line-height: 19px;
+    margin:8px 0 4px 0;
+}
+.produto__descricao{
+    font-weight: 300;
+    color: #A6A6A6;
+    font-size:15px;
+    line-height: 18px;
+    margin-bottom:5px;
+
+}
+.produto__valor{
+    display:flex;
+    justify-content: space-between;
+    align-items:end;
+    font-size:16px;
+    color: #000000;
+    font-weight: 400;
+    line-height: 19px;
+}
+.produto__valor ion-icon{
+    color: #32B72F;
+    display:none;
+}
+.produto__imagem-sobremesa{
+    height: 82px;
+}
+.padding-bottom{
+    padding-bottom: 108px;
+}
+.rodape{
+    position:fixed;
+    left:0;
+    bottom:0;
+    width:100%;
+    background: #FFFFFF;
+    height: 92px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rodape button{
+    color: #FFFFFF;
+    font-size:20px;
+    font-weight:400;
+    width: calc(100% - 50px);
+    border-radius:50px;
+    background-color: #32B72F;
+    padding: 8px;
+    border:0;
+}
+.rodape button:disabled{
+    background-color: #CBCBCB;
+ }
+ 
+ @media screen and (min-width:600px){
+     .cabecalho, .conteudo, .rodape{
+         width:600px;
+     }
+ }
+ @media screen and (max-width:300px){
+    .cabecalho, .conteudo, .rodape{
+        width:300px;
+    }
+ }

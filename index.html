@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/reset.css" />
+        <link rel="stylesheet" href="css/estilo.css" />
+        <title>DrivenEats</title>
+    </head>
+    <body>
+        <header class="cabecalho">
+            <h1 class="cabecalho__titulo font-righ">DrivenEats</h1>
+            <p class="cabecalho__subtitulo">Sua comida em 6 minutos</p>
+        </header>
+        <main class="conteudo"> 
+            <section class="produto">
+                <h2 class="produto__titulo">Primeiro, seu prato</h2>
+                <article class="produto__opcoes">
+                    <div class="produto__opcao" onclick="selecionaItem(this)">
+                        <img src="media/frango.png" alt="" />
+                        <div class="produto__nome">
+                            <h3>Frango Yin Yang</h3>
+                        </div>
+                        <p class="produto__descricao">Um pouco de batata, um pouco de salada</p>
+                        <div class="produto__valor">
+                            <span>R$ 14,90</span>
+                            <ion-icon name="checkmark-circle"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="produto__opcao" onclick="selecionaItem(this)">
+                        <img src="media/frango.png" alt="">
+                        <div class="produto__nome"> <h3>Frango Yin Yang</h3> </div>
+                        <p class="produto__descricao">Um pouco de batata, um pouco de salada</p>
+                        <div class="produto__valor">
+                            <span>R$ 14,90</span>
+                            <ion-icon name="checkmark-circle"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="produto__opcao" onclick="selecionaItem(this)">
+                        <img src="media/frango.png" alt="">
+                        <div class="produto__nome"><h3>Frango Yin Yang</h3></div>
+                        <p class="produto__descricao">Um pouco de batata, um pouco de salada</p>
+                        <div class="produto__valor">
+                            <span>R$ 14,90</span>
+                            <ion-icon name="checkmark-circle"></ion-icon>
+                        </div>
+                    </div>
+                </article>
+            </section>
+            <section class="produto">
+                <h2 class="produto__titulo">Agora, sua bebida</h2>
+                <article class="produto__opcoes">
+                    <div class="produto__opcao" onclick="selecionaItem(this)">
+                        <img src="media/coca.png" alt="" />
+                        
+                        <div class="produto__nome">
+                            <h3>Coquinha gelada</h3>
+                        </div>
+                        <p class="produto__descricao">Lata 350ml</p>
+                        <div class="produto__valor">
+                            <span>R$ 4,90</span>
+                            <ion-icon name="checkmark-circle"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="produto__opcao" onclick="selecionaItem(this)">
+                        <img src="media/coca.png" alt="" />
+                        
+                        <div class="produto__nome">
+                            <h3>Coquinha gelada</h3>
+                        </div>
+                        <p class="produto__descricao">Lata 350ml</p>
+                        <div class="produto__valor">
+                            <span>R$ 4,90</span>
+                            <ion-icon name="checkmark-circle"></ion-icon>
+                        </div>
+                        
+                    </div>
+                    <div class="produto__opcao" onclick="selecionaItem(this)">
+                        <img src="media/coca.png" alt="" />
+                        
+                        <div class="produto__nome">
+                            <h3>Coquinha gelada</h3>
+                        </div>
+                        <p class="produto__descricao">Lata 350ml</p>
+                        <div class="produto__valor">
+                            <span>R$ 4,90</span>
+                            <ion-icon name="checkmark-circle"></ion-icon>
+                        </div>
+                    </div>
+                </article>
+            </section>
+            <section class="produto padding-bottom">
+                <h2 class="produto__titulo">Agora, sua sobremesa</h2>
+                <article class="produto__opcoes">
+                    <div class="produto__opcao" onclick="selecionaItem(this)">
+                        <img src="media/pudim.png" alt="" />
+                        
+                        <div class="produto__nome">
+                            <h3>Pudim</h3>
+                        </div>
+                        <p class="produto__descricao">Apenas Pudim</p>
+                        <div class="produto__valor">
+                            <span>R$ 7,90</span>
+                            <ion-icon name="checkmark-circle"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="produto__opcao" onclick="selecionaItem(this)">
+                        <img class="produto__imagem-sobremesa" src="media/pudim.png" alt="" />
+                        
+                        <div class="produto__nome">
+                            <h3>Pudim</h3>
+                        </div>
+                        <p class="produto__descricao">Apenas Pudim</p>
+                        <div class="produto__valor">
+                            <span>R$ 7,90</span>
+                            <ion-icon name="checkmark-circle"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="produto__opcao" onclick="selecionaItem(this)"> 
+                        <img class="produto__imagem-sobremesa" src="media/pudim.png" alt="" />
+                        
+                        <div class="produto__nome">
+                            <h3>Pudim</h3>
+                        </div>
+                        <p class="produto__descricao">Apenas Pudim</p>
+                        <div class="produto__valor">
+                            <span>R$ 7,90</span>
+                            <ion-icon name="checkmark-circle"></ion-icon>
+                        </div>
+                    </div>
+                
+                </article>
+            </section>
+        </main>
+        <footer class="rodape">
+            <button class="botao" disabled="disabled">Selecione os 3 itens para fechar o pedido</button>
+
+        </footer> 
+
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+        <script type="text/javascript" src="js/script.js"></script>   
+    </body>
+</html>
